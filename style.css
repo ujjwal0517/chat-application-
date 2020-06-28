@@ -1,0 +1,16 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .main-container {
+    height: 100vh;
+  }
+  .chat {
+    height: 80% !important;
+  }
+  .send {
+    height: 20%;
+  }

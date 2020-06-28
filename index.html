@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat app</title>
+    <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <script src="http://localhost:3000/socket.io/socket.io.js" defer></script>
+  <script src="app.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class= "container bg-dark text-white main-container">
+        <div class="chatarea text-white" id="chat">
+            <div class="send">
+                <form id="sends">
+                    <div class="row">
+                        <input type="text" id="msg" class="form-control w-75">
+                        <button type="submit" class="w-25 btn btn-success" id="sending">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
